@@ -2,7 +2,7 @@ html, body{
     font-family: "Lucida Sans", sans-serif;
     padding:0;
     margin:0;
-    background-color: 0000000;
+    background-color: 222222;
 }
 
 h1{
@@ -17,16 +17,10 @@ h3{
     font-size: 30;
 }
 
-
 .menu{
-
     background-color: 222222;
     color: white;
     text-align: center;
-}
-
-.border{
-    background-color: 0000000;
 }
 
 .content{
@@ -53,15 +47,13 @@ h3{
 #orderlogo{
     background-image: url("../IMG/theorderlogo.png");
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:contain;
 }
 
 #dummy{
-    width:100%;
-    visibility:
-
+    width:110%;
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 719px) {
@@ -78,10 +70,6 @@ h3{
         font-size: 15;
     }
 
-    #orderlogo{
-        margin-top:44px;
-
-    }
     .menu {
         overflow: hidden;
         background-color: 222222;
@@ -90,7 +78,7 @@ h3{
         width: 100%;
     }
 
-    .menu a,img {
+    .menu a {
         float: left;
         display: block;
         color: #f2f2f2;
@@ -109,12 +97,16 @@ h3{
         width:0px;
         height:0px;
     }
+    #orderlogo{
+        background-position: 0 44;
+    }
+
 }
 
 @media only screen and (min-width: 720px) {
     /* For tablets: */
     .header{
-        margin-top:47px;
+
     }
     .menu {
         overflow: hidden;
@@ -137,6 +129,14 @@ h3{
         width:25px;
         padding:5px;
     }
+
+    #orderlogo{
+        background-position: 0 51;
+    }
+    #dummy{
+    width:108%;
+    visibility: hidden;
+}
 }
 
 @media only screen and (min-width: 1023px) {
@@ -162,7 +162,7 @@ h3{
     }
 
     .content{
-       width: -webkit-calc(70% - 100px);
+       width: -webkit-calc(100% - 100px);
        float:right;
     }
 
@@ -170,12 +170,16 @@ h3{
        width: -webkit-calc(100% - 100px);
        float:right;
     }
-    .border{
-       float:right;
-        width:15%;
-    }
+
     .icons{
         width:50px;
         padding:0px;
     }
+    #orderlogo{
+        background-position: 65 0;
+    }
+    #dummy{
+    width:100%;
+    visibility: hidden;
+}
 }
