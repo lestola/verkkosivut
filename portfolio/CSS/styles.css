@@ -40,7 +40,8 @@ html, body{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 719px) {
+    /* For phones: */
     .menu {
         overflow: hidden;
         background-color: 222222;
@@ -54,7 +55,7 @@ html, body{
         display: block;
         color: #f2f2f2;
         text-align: center;
-        padding: 14px 16px;
+        padding: 12px 12px;
         text-decoration: none;
         font-size: 17px;
     }
@@ -64,36 +65,70 @@ html, body{
         margin-top: 30px;
         height: 1500px; /* Used in this example to enable scrolling */
     }
+    .icons{
+        padding:0;
+        width:0px;
+        height:0px;
+
+    }
 }
 
 
-@media only screen and (min-width: 600px) {
+
+
+@media only screen and (min-width: 720px) {
+    /* For tablets: */
+    .menu {
+        overflow: hidden;
+        background-color: 222222;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu a{
+       float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .icons{
+        width:25px;
+        padding:5px;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    /* For pc: */
     .menu{
-        width:130px;
+        width:150px;
         height:100%;
         float:left;
         position: fixed;
     }
 
-    .menu a,img{
+    .menu a{
         float: left;
         display: block;
         color: #f2f2f2;
-        text-align: center;
-        padding: 5px 30px;
+        text-align: left;
+        padding: 15px 20px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 18px;
 
     }
 
     .content{
-       width: -webkit-calc(70% - 130px);
+       width: -webkit-calc(70% - 150px);
        float:right;
 
     }
 
     .header{
-       width: -webkit-calc(100% - 130px);
+       width: -webkit-calc(100% - 150px);
        float:right;
     }
     .border{
