@@ -55,20 +55,46 @@
         <img class="valokuvat" src="PHOTOS/2.JPG">
         <img class="valokuvat" src="PHOTOS/3.JPG">
         <img class="valokuvat" src="PHOTOS/4.JPG">
-        <img class="valokuvat" src="PHOTOS/1.JPG">
-        <img class="valokuvat" src="PHOTOS/2.JPG">
         <img class="valokuvat" src="PHOTOS/3.JPG">
+        <img class="valokuvat" src="PHOTOS/2.JPG">
+        <img class="valokuvat" src="PHOTOS/1.JPG">
 
 
 
         <h2 id="contact">Contact</h2>
+
         <p>WWW:</p>
         <a href="https://soundcloud.com/the-order-of-ext-djs" class="linkit">Soundcloud.com<br><br></a>
         <a href="http://www.mikseri.net/theorder" class="linkit">Mikseri.fi</a>
         <p>Email:</p>
         <p class="linkit">ode.palmu@gmail.com<br><br>marko.lehtola@icloud.com</p>
 
-    </div>
+         <p>Contact form:</p>
+        <form action="/action_page.php" class="container">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password..">
+
+            <label for="country">Region</label>
+            <select id="country" name="country">
+                <option value="australia">Europe</option>
+                <option value="canada">North-America</option>
+                <option value="canada">South-America</option>
+                <option value="usa">Asia</option>
+                <option value="usa">Australia</option>
+                <option value="usa">Africa</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     </body>
 </html>
