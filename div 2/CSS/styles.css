@@ -1,0 +1,98 @@
+html, body{
+    padding:0;
+    margin:0;
+    
+}
+
+h1,h2,p{
+   font-family:sans-serif;
+    
+}
+p{
+    font-size:12;
+    
+}
+
+#PageWrapper{
+    width:100%;
+    height:100%;
+    background-color: aqua;
+        
+}
+
+#LeftWrapper{
+    width: -webkit-calc(100% - 550px);
+    height:100%;
+    float: left;
+    background-color:white;
+    background-image: url(stones.jpg);
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+        
+}
+
+#RightWrapper{
+    width:550px;
+    height:100%;
+    float:right;
+    background-color: white;
+        
+}
+
+#ContentWrapper{
+    width:85%;
+    height:100%;
+    margin: 100px auto;
+    background-color: white;
+        
+}
+
+#Painike{
+    width:70px;
+    height:35px;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    color:white;
+    border-width: 0;
+        
+}
+
+#cantAccesButton{
+    color:dodgerblue;
+        
+}
+
+.inputBox{
+    width:100%;
+    margin: 3px 0px;
+    height: 25
+        
+}
+
+#HeaderText{
+    color:orangered;
+           
+}
+
+@media screen and (max-width: 570px) {
+  
+    #LeftWrapper{
+    width: 100%;
+    height:40%;
+    float: none;
+    position: relative;
+        
+    }
+    
+    #RightWrapper {
+    position: absolute;
+    float:none;
+    bottom: 0px;
+    width: 100%;
+    height:60%;
+    }
+    
+  
+}
+

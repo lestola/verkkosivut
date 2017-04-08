@@ -1,0 +1,22 @@
+body{
+    background-color: black
+}
+
+h1, h2{
+    color:red;
+}
+
+#tokakappale{
+    color:aqua 
+}
+
+p {
+    font-family:fantasy;
+    color:aliceblue
+}
+.tokaClass{   
+    font-family: monospace
+}
+.kappale{
+    font-size:13;
+}

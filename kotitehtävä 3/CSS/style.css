@@ -1,0 +1,71 @@
+body{
+    background-color: black
+}
+.menu{
+    font-family:Montserrat,sans-serif;
+    font-weight:bold;
+    font-size:18;   
+}
+
+#quoteKappale{
+    font-family:Montserrat,sans-serif;
+    font-size:18;   
+    
+}
+
+.alaOtsikot{
+        color:white;
+    font-family:Montserrat,sans-serif;
+    font-weight:normal;
+    font-size:20;  
+
+    
+}
+.alaTekstit{
+    font-family:Montserrat,sans-serif;
+    font-size:13; 
+    color:white;
+    line-height: 150%;
+    font-weight:bold;
+}
+
+.keltainenViiva{
+    
+    color:#ffbb00
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.button {
+                position:relative;
+                padding:8px 15px;
+                left:-8px;
+                border:2px solid #ffffff;
+                background-color:000000;
+                color:#ffbb00;
+}
+
+.alaKeltaOtsikot{
+    font-family:Montserrat,sans-serif;
+    font-size:16;
+    font-weight:bold;
+    color:#ffbb00
+        
+}
+
+.footTeksti{
+    font-family:Montserrat,sans-serif;
+    font-size:26;
+    color:#ffbb00
+        
+}

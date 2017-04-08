@@ -1,0 +1,54 @@
+html, body{
+    padding:0;
+    margin:0;
+
+}
+
+h1,h2,p{
+    margin:0;
+
+}
+
+#PageWrapper{
+    width:100%;
+    height:100%;
+    background-color: aqua;
+
+}
+
+#HeaderWrapper{
+    background-color: bisque;
+    height:40px;
+
+
+}
+
+#ContentWrapper{
+    background-color: blue
+
+}
+
+#Sidebar{
+    width:20%;
+    float:left;
+    background-color: purple
+
+}
+
+#Article{
+    width: 80%;
+    float:left;
+    background-color: cadetblue
+
+}
+
+.ArticleP{
+    margin-top: 5px;
+    background-color: chartreuse
+
+}
+
+#FooterWrapper{
+    background-color:coral;
+    height: 40px;
+}
