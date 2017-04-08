@@ -32,37 +32,56 @@ html, body{
 
 }
 
+ .menu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .menu {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+        overflow: hidden;
+        background-color: 222222;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .content {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; /* Used in this example to enable scrolling */
+    }
 }
 
-.menu a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.content {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-}
 
 @media only screen and (min-width: 600px) {
     .menu{
         width:130px;
         height:100%;
         float:left;
+    }
+
+    .menu a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
     }
 
     .content{
