@@ -39,6 +39,19 @@ h3{
     color: white;
 }
 
+#tarina{
+    width:90%;
+}
+
+
+.valokuvat{
+    max-width: 90%;
+    max-height:300px;
+    width: auto;
+    height: auto;
+
+}
+
 .linkit{
     color:white;
     font-size: 25;
