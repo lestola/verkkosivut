@@ -3,7 +3,6 @@ html, body{
     padding:0;
     margin:0;
     background-color: 0000000;
-
 }
 
 .menu{
@@ -11,34 +10,27 @@ html, body{
     background-color: 222222;
     color: white;
     text-align: center;
-
 }
 
 .border{
-
     background-color: 0000000;
-
 }
 
 .content{
    background-color: 0000000;
    color: white;
-
 }
 
 .header{
     background-color: 0000000;
     color: white;
     font-size: 25px;
-
 }
 
  .menu a:hover {
     background-color: #555;
     color: white;
 }
-
-
 
 @media only screen and (max-width: 719px) {
     /* For phones: */
@@ -63,18 +55,13 @@ html, body{
     .content {
         padding: 16px;
         margin-top: 30px;
-        height: 1500px; /* Used in this example to enable scrolling */
     }
     .icons{
         padding:0;
         width:0px;
         height:0px;
-
     }
 }
-
-
-
 
 @media only screen and (min-width: 720px) {
     /* For tablets: */
@@ -104,7 +91,7 @@ html, body{
 @media only screen and (min-width: 1023px) {
     /* For pc: */
     .menu{
-        width:150px;
+        width:130px;
         height:100%;
         float:left;
         position: fixed;
@@ -118,22 +105,23 @@ html, body{
         padding: 15px 20px;
         text-decoration: none;
         font-size: 18px;
-
     }
 
     .content{
-       width: -webkit-calc(70% - 150px);
+       width: -webkit-calc(70% - 130px);
        float:right;
-
     }
 
     .header{
-       width: -webkit-calc(100% - 150px);
+       width: -webkit-calc(100% - 130px);
        float:right;
     }
     .border{
        float:right;
         width:15%;
-
+    }
+    .icons{
+        width:50px;
+        padding:0px;
     }
 }
