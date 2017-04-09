@@ -19,16 +19,17 @@ h3{
 
 .menu{
     background-color: 222222;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
 }
 
 .content{
    background-color: 0000000;
-   color: white;
+   color: #f2f2f2;
 }
 
 .header{
+    font-family: 'electricfont';
     color:#f2f2f2;
     text-align: center;
     background-color: 222222;
@@ -36,7 +37,7 @@ h3{
 
  .menu a:hover {
     background-color: #555;
-    color: white;
+    color: #f2f2f2;
 }
 
 #tarina{
@@ -53,7 +54,7 @@ h3{
 }
 
 .linkit{
-    color:white;
+    color:#f2f2f2;
     font-size: 25;
 }
 
@@ -82,7 +83,7 @@ input[type=text], input[type=password], select, textarea {
 
 input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: #f2f2f2;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -150,7 +151,7 @@ input[type=submit]:hover {
     }
 
     .linkit{
-    color:white;
+    color:#f2f2f2;
     font-size: 18;
 }
 
@@ -261,4 +262,9 @@ input[type=submit]:hover {
     margin-right: -webkit-calc(50% - 270px);
     float:right;
     }
+}
+
+@font-face {
+    font-family: 'electricfont'; /*a name to be used later*/
+    src: url('../FONT/electric.ttf'); /*URL to font*/
 }
