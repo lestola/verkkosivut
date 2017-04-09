@@ -95,12 +95,13 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 719px) {
     /* For phones: */
+
     h1{
-        font-size:50;
+        font-size:30;
     }
 
     h2{
-        font-size:30;
+        font-size:20;
     }
 
     h3{
@@ -135,7 +136,7 @@ input[type=submit]:hover {
         height:0px;
     }
     #orderlogo{
-        background-position: 0 44;
+        background-position: center 30;
     }
 
      .container {
@@ -148,10 +149,16 @@ input[type=submit]:hover {
     max-width: 500px;
     }
 
+    .linkit{
+    color:white;
+    font-size: 18;
+}
+
 }
 
 @media only screen and (min-width: 720px) {
     /* For tablets: */
+
     .header{
 
     }
@@ -178,7 +185,7 @@ input[type=submit]:hover {
     }
 
     #orderlogo{
-        background-position: 0 51;
+        background-position: center 30;
     }
 
     #dummy{
@@ -199,6 +206,10 @@ input[type=submit]:hover {
 
 @media only screen and (min-width: 1023px) {
     /* For pc: */
+    body{
+            background-color: 000000;
+    }
+
     .header{
         margin-top:0px;
     }
@@ -234,7 +245,7 @@ input[type=submit]:hover {
         padding:0px;
     }
     #orderlogo{
-        background-position: 65 0;
+        background-position: -webkit-calc(61px + 50%) 0;
     }
     #dummy{
     width:100%;
