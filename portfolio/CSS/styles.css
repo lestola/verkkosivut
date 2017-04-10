@@ -5,8 +5,12 @@ html, body{
     background-color: 000000;
 }
 
+p{
+    font-size:25;
+}
+
 h1{
-    font-size:80;
+    font-size:100;
 }
 
 h2{
@@ -14,7 +18,7 @@ h2{
 }
 
 h3{
-    font-size: 30;
+    font-size: 40;
 }
 
 .menu{
@@ -96,23 +100,11 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-device-width: 480px) {
+
+
     /* For phones: */
     body{
         background-color: 222222;
-    }
-    p{
-        font-size:25
-    }
-    h1{
-        font-size:100;
-    }
-
-    h2{
-        font-size:60;
-    }
-
-    h3{
-        font-size:40;
     }
 
     .menu {
@@ -130,7 +122,7 @@ input[type=submit]:hover {
         text-align: center;
         padding: 12px 12px;
         text-decoration: none;
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .content {
@@ -159,16 +151,14 @@ input[type=submit]:hover {
     .linkit{
     color:#f2f2f2;
     font-size: 40;
-}
+    }
 
 }
 
-@media only screen and (min-device-width: 481px)
+@media only screen and (min-device-width: 481px){
+
     /* For tablets: */
 
-    .header{
-
-    }
     .menu {
         overflow: hidden;
         background-color: 222222;
@@ -184,7 +174,7 @@ input[type=submit]:hover {
         text-align: center;
         padding: 5px 10px;
         text-decoration: none;
-        font-size: 50px;
+        font-size: 45px;
     }
     .icons{
         width:40px;
@@ -210,6 +200,7 @@ input[type=submit]:hover {
     max-width: 500px;
     }
 }
+
 
 @media only screen and (min-width: 1350px) {
     /* For pc: */
