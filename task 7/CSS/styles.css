@@ -12,6 +12,33 @@ body{
     
     
 }
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#headerteksti{
+    float:right;
+    margin-right:15%;
+    margin-top:0px;
+    
+}
+
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 5px;
+    margin-top: 6px;
+}
+
 .thecontent{
     background-image: url("../IMG/bg.jpg");
     background-size: 100%;
@@ -30,7 +57,6 @@ body{
 #footer{
     height:200px;
     background-color: #606C7E;
-    color:white;
     
 }
 #menulogo{
@@ -94,7 +120,7 @@ body{
 }
 
 #ekagif{
-    margin-left:120
+    margin-left:120;
 }
 .giffit{
     padding:5;
@@ -130,4 +156,23 @@ body{
     height:50px;
 }
 
-
+#footertexts{
+    width:985px;
+    margin-top:25px;
+    height:150;
+    float:right;
+    margin-right: -webkit-calc(((100% - 1200px)/2));
+    color:white;
+    font-family: serif;
+    font: sans-serif;
+}
+td{
+    text-align:left;
+    vertical-align: top;
+}
+.valiviivat{
+    border-right: 1px solid #000000;
+}
+.lopputekstit{
+    margin-left:20px;
+}
